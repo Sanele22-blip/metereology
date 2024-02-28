@@ -11,5 +11,66 @@ a {
     background: white ;
     max-width: 500px;
     margin: 45px auto;
-    
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    padding: 30px;
+}
+
+header {
+    border-bottom: 1px solid #f9f7fe;
+    padding: 0 0 30px 0;
+}
+
+.search-form {
+    background-color: #f9f7fe;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 18px;
+    padding: 15px 20px;
+}
+
+.search-input-button {
+    background-color: limegreen;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    margin-left: 6px;
+    border-radius: 5px;
+    color: white;
+}
+
+main {
+    padding: 30px;
+}
+
+.forecast-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forecast.data.details strong{
+    color: bisque;
+}
+
+.forecast-web-temperature {
+    display: flex;
+}
+
+.forecast-temperature {
+    font-size: 88px;
+    line-height: 88px;
+    font-weight: bold;
+}
+
+.forecast-tempo-unit {
+    margin-top: 6px;
+    font-size: 30px;
+}
+
+footer {
+    border-top: 1px solid #f9f7fe;
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
 }
