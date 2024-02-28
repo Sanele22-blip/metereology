@@ -11,6 +11,32 @@
     <title>Weather Forecast</title>
 </head>
 <body>
+    <div class="weather-web">
+        <header>
+            <form class="search-form" id="search-form">
+                <input type="search" placeholder="please enter a city" id="search-form-input"/>
+                <input type="submit" value="search" class="search-input-button"/>
+            </form>
+        </header>
+        <main>
+            <div class="forecast data">
+<div>
+    <h1 class="city" id="place"></h1>
+    <p class="forecast-data-details">
+        <span id="time"></span>
+        <span id="description"></span>
+        <br />
+        Humidity: <strong id="humidity"></strong>, Wind: <strong id="wind-speed"></strong>
+ </p>
+            </div>
+
+            <div class="forecast-web-temperature">
+<div id="icon" ></div>
+<div class="forecast-temperature" id="temperature"></div>
+<div class="forecast-tempo-unit">°C</div>
+            </div>
+        </main>
+        
     <footer>
         This page was coded by <a href="https://github.com/Sanele22-blip">Sanele Xegwana</a> is
 <a href="https://github.com/Sanele22-blip">open-sourced on Github</a> 
